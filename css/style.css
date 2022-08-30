@@ -661,6 +661,10 @@ p{
     #sobremi .sobremi{
         text-align: center;
     }
+
+    #sobremi .sobremi p{
+        margin: 5px 10px;
+    }
     #servicio{
         padding: 50px 15px;
     }

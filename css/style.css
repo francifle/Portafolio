@@ -596,7 +596,7 @@ p{
 @media screen and (max-width: 800px){
 
     .contenedor-skills{
-        background: linear-gradient(#eeb5b5cc, rgba(33,16, 16, .2)), url(../img/fondo-skills2.jpg);
+        background: linear-gradient linear-gradient(rgba(39, 38, 38, 0.7),rgba(0, 0, 0, 0.7)), url(../img/fondo-skills2.jpg);
         background-attachment: inherit;
         background-repeat: no-repeat;
         background-size: cover;

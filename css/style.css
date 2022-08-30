@@ -33,7 +33,6 @@ p{
     width: 100%;
 }
 
-
 #inicio .contenido header .contenido-header{
     max-width: 100%;
     margin: auto;
@@ -54,6 +53,14 @@ p{
 #inicio .contenido header .contenido-header h1{
     text-align: center;
     color: #ff5080;
+    margin: 0;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-family: inherit;
+}
+
+#inicio .contenido header .contenido-header h1 span{
+    text-align: center;
+    color: #fff;
     margin: 0;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -491,6 +498,23 @@ p{
     bottom: -40px;
     transition: .5s;
 }
+
+#portafolio .fila .proyecto .info a{
+    margin-left: 190px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#portafolio .fila .proyecto .info span{
+    color: #ff5080;
+    transition: .5s;
+}
+
+#portafolio .fila .proyecto .info span:hover{
+    color: #fff;
+    transition: .5s;
+}
+
 
 #portafolio .fila .proyecto:hover .info{
     opacity: 1;
